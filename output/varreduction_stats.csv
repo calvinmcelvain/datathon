@@ -1,0 +1,6 @@
+,threshold,cluster_n,within_rs,between_rs,seperation,selected_vars
+0,1,27,0.7468596286709184,0.022494187076525334,0.7243654415943931,"['max_power', 'marital_status_m', 'veh_color_gray', 'veh_color_white', 'area_d', 'veh_color_black', 'time_driven_6pm12am', 'engine_type_electric', 'veh_body_mibus', 'veh_body_stnwg', 'veh_color_silver', 'veh_body_coupe', 'time_of_week_driven_weekday', 'veh_body_ute', 'veh_body_convt', 'credit_score', 'veh_body_hdtop', 'veh_body_panvn', 'veh_body_rdstr', 'veh_body_mcara', 'area_f', 'time_driven_6am12pm', 'exposure', 'gender_f', 'engine_type_dissel', 'area_c', 'area_a']"
+1,2,3,0.814200157359057,2.9692148553881666e-05,0.8141704652105032,"['max_power', 'marital_status_m', 'time_of_week_driven_weekday']"
+2,3,1,0.45162419084296146,0.0,0.45162419084296146,['max_power']
+3,4,1,0.45162419084296146,0.0,0.45162419084296146,['max_power']
+4,5,1,0.45162419084296146,0.0,0.45162419084296146,['max_power']
