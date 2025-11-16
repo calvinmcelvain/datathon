@@ -30,41 +30,41 @@ datathon/
 
 ### Feature Selection
 
-- [ ] Apply `VarClusHi` for hierarchical variable clustering.
-  - [ ] Determine optimal number of clusters.
-  - [ ] Select representative variables from each cluster.
+- [X] Apply `VarClusHi` for hierarchical variable clustering.
+  - [X] Determine optimal number of clusters.
+  - [X] Select representative variables from each cluster.
 
 ### Models
 
-- [ ] XGBoost
-- [ ] Random Forest
-- [ ] TabPFN
+- [X] XGBoost
+- [X] Random Forest
+- [X] TabPFN
 - [ ] LightGBM
 
 For each model:
 
-- [ ] Build baseline frequency model (predict `clm` or `numclaims`) and baseline severity model (predict `claimcst0` for claims only).
-- [ ] Handle exposure offset/weights.
-- [ ] Apply interactive hyperparameter tuning.
-- [ ] Document hyperparameters tested and final selections.
-- [ ] Evaluate on validation set (`sample=='2|val'`).
+- [X] Build baseline frequency model (predict `clm` or `numclaims`) and baseline severity model (predict `claimcst0` for claims only).
+- [X] Handle exposure offset/weights.
+- [X] Apply interactive hyperparameter tuning.
+- [X] Document hyperparameters tested and final selections.
+- [X] Evaluate on validation set (`sample=='2|val'`).
 
 ### Model Selection
 
-- [ ] Model Explainability: Apply `SHAP` analysis to best performing model(s).
-- [ ] Compare all models on validation set.
-  - [ ] Calculate performance metrics (RMSE, MAE, $R^2$, etc.)
-  - [ ] Create comparison visualizations.
+- [X] Model Explainability: Apply `SHAP` analysis to best performing model(s).
+- [X] Compare all models on validation set.
+  - [X] Calculate performance metrics (RMSE, MAE, $R^2$, etc.)
+  - [X] Create comparison visualizations.
 
 ### Inference
 
-- [ ] Generate predictions on `test.csv` dataset.
-- [ ] Identify underpriced/overpriced segments.
-- [ ] Develop rate adjustment recommendations.
-- [ ] Create targeted marketing campaign strategies.
+- [X] Generate predictions on `test.csv` dataset.
+- [X] Identify underpriced/overpriced segments.
+- [X] Develop rate adjustment recommendations.
+- [X] Create targeted marketing campaign strategies.
 
 ### Submissions
 
-- [ ] Code
-- [ ] One page report
-- [ ] Presentation
+- [X] Code
+- [X] One page report
+- [X] Presentation
